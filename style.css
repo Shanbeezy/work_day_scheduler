@@ -1,6 +1,17 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  /*Added background color to make planner stand out more*/
+  background-color: darkolivegreen;
+}
+
+/* Added header image and styling */
+header {
+  background-image: url(https://images.pexels.com/photos/289323/pexels-photo-289323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center center;
+  background-size: cover;
+  translate: -50%, -50% ;
+  color: rgb(253, 240, 240);
 }
 
 textarea {
@@ -21,22 +32,22 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid black;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: beige;
+  color: darkgreen;
+  border-top: 5px ridge black;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: lightgray;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: orange;
   color: white;
 }
 
@@ -49,8 +60,8 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: gray;
+  color: darkgreen;
 }
 
 .saveBtn i:hover {
