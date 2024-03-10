@@ -5,3 +5,4 @@ This is a simple calendar application that allows the user to save events for ea
 
 ### Visuals
 ![Work day Scheduler screenshot](<Scheduler Screenshot.png>)
+https://shanbeezy.github.io/work_day_scheduler/
